@@ -1,0 +1,164 @@
+{
+	"ESTACIONES":[
+	    {
+		"CIUDAD": "Alcala de H.",
+		"TEMPERATURA":25,
+		"HUMEDAD":48,
+		"RUIDO":150,
+		"NIVEL_DE_LUZ":120,
+		"COLOR_ILUMINACION":"000000"
+	    },
+	    {
+		"CIUDAD": "Alicante",
+		"TEMPERATURA":30,
+		"HUMEDAD":69,
+		"RUIDO":180,
+		"NIVEL_DE_LUZ":211,
+		"COLOR_ILUMINACION":"FF0000"
+	    },
+	    {
+		"CIUDAD": "Badajoz",
+		"TEMPERATURA":20,
+		"HUMEDAD":40,
+		"RUIDO":50,
+		"NIVEL_DE_LUZ":150,
+		"COLOR_ILUMINACION":"00FF00"
+	    },
+	    {
+		"CIUDAD": "Burgos",
+		"TEMPERATURA":18,
+		"HUMEDAD":45,
+		"RUIDO":211,
+		"NIVEL_DE_LUZ":180,
+		"COLOR_ILUMINACION":"0000FF"
+	    },
+	    {
+		"CIUDAD": "Cordoba",
+		"TEMPERATURA":35,
+		"HUMEDAD":41,
+		"RUIDO":150,
+		"NIVEL_DE_LUZ":50,
+		"COLOR_ILUMINACION":"FFFFFF"
+	    },
+	    {
+		"CIUDAD": "Marbella",
+		"TEMPERATURA":21,
+		"HUMEDAD":71,
+		"RUIDO":110,
+		"NIVEL_DE_LUZ":80,
+		"COLOR_ILUMINACION":"00000F"
+	    },
+	    {
+		"CIUDAD": "Oviedo",
+		"TEMPERATURA":12,
+		"HUMEDAD":82,
+		"RUIDO":90,
+		"NIVEL_DE_LUZ":178,
+		"COLOR_ILUMINACION":"000F0F"
+	    },
+	    {
+		"CIUDAD": "Salou",
+		"TEMPERATURA":19,
+		"HUMEDAD":76,
+		"RUIDO":141,
+		"NIVEL_DE_LUZ":135,
+		"COLOR_ILUMINACION":"F00000"
+	    },
+	    {
+		"CIUDAD": "Girona",
+		"TEMPERATURA":16,
+		"HUMEDAD":48,
+		"RUIDO":59,
+		"NIVEL_DE_LUZ":130,
+		"COLOR_ILUMINACION":"0F0F0F"
+	    },
+	    {
+		"CIUDAD": "Madrid",
+		"TEMPERATURA":14,
+		"HUMEDAD":20,
+		"RUIDO":70,
+		"NIVEL_DE_LUZ":59,
+		"COLOR_ILUMINACION":"F0F0000"
+	    },
+	    {
+		"CIUDAD": "Barcelona",
+		"TEMPERATURA":17,
+		"HUMEDAD":65,
+		"RUIDO":125,
+		"NIVEL_DE_LUZ":105,
+		"COLOR_ILUMINACION":"F0F0F0"
+	    },
+	    {
+		"CIUDAD": "Tarifa",
+		"TEMPERATURA":19,
+		"HUMEDAD":7,
+		"RUIDO":187,
+		"NIVEL_DE_LUZ":200,
+		"COLOR_ILUMINACION":"FF00FF"
+	    },
+	    {
+		"CIUDAD": "Palmas",
+		"TEMPERATURA":25,
+		"HUMEDAD":65,
+		"RUIDO":130,
+		"NIVEL_DE_LUZ":115,
+		"COLOR_ILUMINACION":"FFFF00"
+	    },
+	    {
+		"CIUDAD": "Segovia",
+		"TEMPERATURA":8,
+		"HUMEDAD":33,
+		"RUIDO":145,
+		"NIVEL_DE_LUZ":200,
+		"COLOR_ILUMINACION":"FFFFF0"
+	    },
+	    {
+		"CIUDAD": "Murcia",
+		"TEMPERATURA":21,
+		"HUMEDAD":70,
+		"RUIDO":165,
+		"NIVEL_DE_LUZ":176,
+		"COLOR_ILUMINACION":"FFFFF0"
+	    },
+	    {
+		"CIUDAD": "Zaragoza",
+		"TEMPERATURA":9,
+		"HUMEDAD":49,
+		"RUIDO":116,
+		"NIVEL_DE_LUZ":145,
+		"COLOR_ILUMINACION":"F0F0F0"
+	    },
+	    {
+		"CIUDAD": "Salamanca",
+		"TEMPERATURA":14,
+		"HUMEDAD":9,
+		"RUIDO":157,
+		"NIVEL_DE_LUZ":156,
+		"COLOR_ILUMINACION":"F0F0FF"
+	    },
+	    {
+		"CIUDAD": "Burgos",
+		"TEMPERATURA":12,
+		"HUMEDAD":82,
+		"RUIDO":90,
+		"NIVEL_DE_LUZ":178,
+		"COLOR_ILUMINACION":"000F0F"
+	    },
+	    {
+		"CIUDAD": "Toledo",
+		"TEMPERATURA":18,
+		"HUMEDAD":11,
+		"RUIDO":57,
+		"NIVEL_DE_LUZ":156,
+		"COLOR_ILUMINACION":"F0FF0F"
+	    },
+	    {
+		"CIUDAD": "Valencia",
+		"TEMPERATURA":21,
+		"HUMEDAD":47,
+		"RUIDO":207,
+		"NIVEL_DE_LUZ":163,
+		"COLOR_ILUMINACION":"0FF0FF"
+	    },
+	]
+}

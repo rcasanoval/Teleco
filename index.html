@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html manifest="cachemanifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/iroom.css">
+        <script src=http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js></script>
+        <title> Smart_Room_Proyect</title>
+    </head>
+    <body>
+        <div class="slidemenu">
+            <h2><br>MENÚ</h2>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="minombre.html">Nombre Usuario</a></li>
+                    <li><a href="config.html">Configuración Habitación</a></li>
+                    <li><a href="tablas.html">Tabla de Meteorología</a></li>
+                    <li><a href="galeria.html">Galería de Imágenes</a></li>
+                </ul>
+        </div>
+        <div class="contenidos">
+            <img src="imagenes/icono.png" alt="" class="menu-bar" width="50" height="50">
+        </div>
+    <header class="cabecera">Smart Room Project</header> 
+        <div class="banda1">
+            <p>
+                <a class="referencia" href="minombre.html">Nombre</a>
+                <a class="referencia" href="config.html">Configuración</a>
+                <a class="referencia" href= "tablas.html">Meteorología</a>
+                <a class="referencia" href= "galeria.html">Galeria</a>
+            </p>
+        </div>
+
+        <div class="banda2">
+                <a class="referencia" >Información:<div id="info" ></div></a>
+        </div>
+        
+        <div class="fondo">
+            <h1 class="titulo">Datos de la habitación</h1>
+                <ol>
+                    <br>
+                    <li class="contenido"> País: España</li>
+                    <br><br>
+                    <li class="contenido"> Ciudad: Torrejón de Ardoz</li>
+                    <br><br>
+                    <li class="contenido"> Localización: 43.23, 200</li>
+                    <br><br>
+                    <li class="contenido">Ubicación:<a class="contenido" href="https://www.google.com/maps/place/Calle+Platino,+5,+28850+Torrej%C3%B3n+de+Ardoz,+Madrid/@40.45127,-3.4669387,17z/data=!3m1!4b1!4m5!3m4!1s0xd423706065e3efd:0xa6f4cabada9639b0!8m2!3d40.45127!4d-3.46475">Google maps</a><br>
+                    </li> <br>
+                    <center>
+                        <img src="imagenes/habitacion1.jpg" alt="Mi Habitación" width="220" height="180">
+                    </center>
+                </ol>
+            
+        </div>
+
+        <div class="fondo">
+            <h1 class="titulo">Datos de los sensores</h1>
+            <center>
+            <table border="3">
+                <thead class="marcotabla">
+                    <tr>
+                        <th class="titulotabla">Características</th>
+                        <th class="titulotabla">Valores</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Temperatura(º)</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Humedad(%)</td>
+                        <td>30</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>Nivel de Ruido</td>
+                        <td>115</td>
+                    </tr>
+                    <tr>
+                        <td>Nivel de luz</td>
+                        <td>225</td>
+                    </tr>
+                    <tr>
+                        <td>Movimiento</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>Color iluminación</td>
+                        <td>FF00FF</td>
+                    </tr>
+                   
+                </tbody>
+
+            </table>
+            </center>
+            
+        <br>
+            
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0843514572625!2d-3.4669386846030203!3d40.45126997936107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd423706065e3efd%3A0xa6f4cabada9639b0!2sCalle%20Platino%2C%205%2C%2028850%20Torrej%C3%B3n%20de%20Ardoz%2C%20Madrid!5e0!3m2!1ses!2ses!4v1570136595927!5m2!1ses!2ses" width="350" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <br><br>
+            <div class="contenido">
+                Música:
+                <audio controls>
+                    <source src="musica/the-chainsmokers-closer-ft-halsey-official-lyric-video.ogg">
+                    <source src="musica/the-chainsmokers-closer-ft-halsey-official-lyric-video.mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            
+        </div>
+        <img src="imagenes/up.png" alt="" class="arriba" id="up" width="50" height="50">
+        <h2><div class="pie" >Universidad de Alcalá
+         </div></h2>
+        <script language="JavaScript" type="text/javascript" src="./datos.js"></script>
+    </body>
+</html>

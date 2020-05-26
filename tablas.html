@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html manifest="cachemanifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/iroom.css">
+        <script src=http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js></script>
+        <script language="JavaScript" type="text/javascript" src="./datos.js"></script>
+        <title> Table</title>
+    </head>
+    <body>
+        <div class="slidemenu">
+            <h2><br>MENÚ</h2>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="minombre.html">Nombre Usuario</a></li>
+                    <li><a href="config.html">Configuración Habitación</a></li>
+                    <li><a href="tablas.html">Tabla de Meteorología</a></li>
+                    <li><a href="galeria.html">Galería de Imágenes</a></li>
+                </ul>
+        </div>
+        <div class="contenidos">
+            <img src="imagenes/icono.png" alt="" class="menu-bar" width="50" height="50">
+        </div>
+    <header class="cabecera">Smart Room Project</header> 
+        
+        <div class="banda1">
+        </div>
+
+        <div class="banda2">
+                <a class="referencia" >Información:<div id="info" ></div></a>
+        </div>
+        
+        <div class="fondocompl">
+            <br>
+            <div class="meteoro"><h1>Estaciones Meteorologicas</h1></div>
+            <br><br>
+            <div class="busca"><h4>Buscador de estaciones:</h4></div>
+            <input id="meteo" class= "estaciones" type="text" placeholder="Buscar..">
+            <center>
+                <table id="tabla1" border=1 class="tabla"> </table>
+                <table id="tabla2" border=1 class="tabla"> </table>
+                <table id="tabla3" border=1 class="tabla"> </table>
+                <table id="tabla4" border=1 class="tabla"> </table>
+            </center>
+            <br>
+            <div id="numest1" class="numest"><h3>Estaciones 0-5.</h3></div>
+            <div id="numest2" class="numest"><h3>Estaciones 5-10.</h3></div>
+            <div id="numest3" class="numest"><h3>Estaciones 10-15.</h3></div>
+            <div id="numest4" class="numest"><h3>Estaciones 15-20.</h3></div>
+            <br>
+            <div class="boton">
+                <button onclick="pulsar1();" class= "paginas" type="button" id="boton">Pagina 1</button>
+                <button onclick="pulsar2();" class= "paginas" type="button" id="boton">Pagina 2</button>
+                <button onclick="pulsar3();" class= "paginas" type="button" id="boton">Pagina 3</button>
+                <button onclick="pulsar4();" class= "paginas" type="button" id="boton">Pagina 4</button>
+            </div>
+        </div>
+        <img src="imagenes/up.png" alt="" class="arriba" id="up" width="50" height="50">
+        <h2>
+            <div class="retorno">
+                <a class="referencia2" href="index.html">Volver a pagina principal</a>
+            </div>
+            <div class="pie" >Universidad de Alcalá
+            </div>
+        </h2>
+    </body>
+</html>
+

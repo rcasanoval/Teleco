@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html manifest="cachemanifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/iroom.css">
+        <script src=http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js></script>
+        <title> Name</title>
+    </head>
+    <body>
+        <div class="slidemenu">
+            <h2><br>MENÚ</h2>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="minombre.html">Nombre Usuario</a></li>
+                    <li><a href="config.html">Configuración Habitación</a></li>
+                    <li><a href="tablas.html">Tabla de Meteorología</a></li>
+                    <li><a href="galeria.html">Galería de Imágenes</a></li>
+                </ul>
+        </div>
+        <div class="contenidos">
+            <img src="imagenes/icono.png" alt="" class="menu-bar" width="50" height="50">
+        </div>
+    <header class="cabecera">Smart Room Project</header> 
+        <div class="banda1">
+                
+        </div>
+
+        <div class="banda2">
+            <a class="referencia" >Información:<div id="info" ></div></a>
+        </div>
+        
+        
+        <div class="fondo">
+            <h1 class="titulo">Datos de la persona</h1>
+            <form>
+                <b>
+                <div class="contconfig">
+                    Nombres: <input id="fname" type="text" autofocus><br><br>
+                    Apellidos: <input id="lname" type="text" required><br><br>
+                    Edad (Mayor de 18): <input id="edad" name="edad" type="number" min="18"><br><br>
+                    Teléfono: <input id="telefono" name="telefono" type="text" onblur="ComprobarTelefono();"><br><br>
+                    Correo: <input id="correo" name="correo" type="email" onblur="ComprobarCorreo();"><br><br>
+                    Sexo: <input id="sex" list="sexo" required><br><br>
+                    <datalist id="sexo">
+                            <option value="Hombre">
+                            <option value="Mujer">
+                            <option value="Sin especificar">
+                    </datalist>
+                    <button onclick="Enviar();" type="button" id="boton">Enviar Datos</button>
+                </div>
+                </b>
+            </form>
+            <center>
+                 <img src="imagenes/Personas.gif" alt="Gift" width="150" height="200">
+            </center>
+        </div>
+        
+        <div class="fondo">
+            <center>
+                <img class="foto" src="imagenes/tenor.gif" alt="Personas" width="400" height="200"><br><br>
+                <video width="300" height="200" controls>
+                    <source src="video/Smart-Room-Hotel.mp4" type="video/mp4">
+                    <source src="video/Smart-Room-Hotel.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </center>       
+            <img src="imagenes/up.png" alt="" class="arriba" id="up" width="50" height="50">
+        </div>
+        <h2>
+            <div class="retorno">
+                <a class="referencia2" href="index.html">Volver a pagina principal</a>
+            </div>
+            <div class="pie" >Universidad de Alcalá</div>
+        </h2>
+        <script language="JavaScript" type="text/javascript" src="./datos.js"></script>
+    </body>
+</html>

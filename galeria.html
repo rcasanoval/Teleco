@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html manifest="cachemanifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/iroom.css">
+        <title> Gallery</title>
+        <script src=http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js></script>
+    </head>
+    <body>
+        <div class="slidemenu">
+            <h2><br>MENÚ</h2>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="minombre.html">Nombre Usuario</a></li>
+                    <li><a href="config.html">Configuración Habitación</a></li>
+                    <li><a href="tablas.html">Tabla de Meteorología</a></li>
+                    <li><a href="galeria.html">Galería de Imágenes</a></li>
+                </ul>
+        </div>
+        <div class="contenidos">
+            <img src="imagenes/icono.png" alt="" class="menu-bar" width="50" height="50">
+        </div>
+        
+    <header class="cabecera">Smart Room Project</header> 
+        
+        <div class="banda1">
+        </div>
+
+        <div class="banda2">
+                <a class="referencia" >Información:<div id="info" ></div></a>
+        </div>
+        
+        <div class="fondocompl">
+            <div class="meteoro"><h1>Galería de Imágenes</h1></div>
+            <div  id="c-slider">
+                <div id="slider">
+                    <section class="galeria_item">
+                        <img src="imagenes/1.jpg" class="galeria_img" alt="1">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/2.jpg" class="galeria_img" alt="2">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/3.jpg" class="galeria_img" alt="3">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/4.jpg" class="galeria_img" alt="4">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/5.jpg" class="galeria_img" alt="5">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/6.jpg" class="galeria_img" alt="6">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/7.jpg" class="galeria_img" alt="7">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/8.jpg" class="galeria_img" alt="8">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/9.jpg" class="galeria_img" alt="9">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/10.jpg" class="galeria_img" alt="10">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/11.jpg" class="galeria_img" alt="11">
+                    </section>
+                    <section class="galeria_item">
+                        <img src="imagenes/12.jpg" class="galeria_img" alt="12">
+                    </section>
+                </div>
+                <div id="btn-prev">&#60;</div>
+                <div id="btn-next">&#62;</div>
+                <img src="imagenes/up.png" alt="" class="arriba" id="up" width="50" height="50">
+            </div>
+            <button class="big" id="big" onclick="Grande();">Grande</button>
+            <button class="middle" id="middle" onclick="Mediano();">Mediano</button>
+            <button class="small" id="small" onclick="Peque();">Pequeño</button>
+            <script  src="./datos.js"></script>
+        </div>
+        <h2>
+            <div class="retorno">
+                <a class="referencia2" href="index.html">Volver a pagina principal</a>
+            </div>
+            <div class="pie" >Universidad de Alcalá
+            </div>
+        </h2>
+    </body>
+</html>

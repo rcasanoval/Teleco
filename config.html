@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+<html manifest="cachemanifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/iroom.css">
+        <script src=http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js></script>
+        <title> Settings</title>
+    </head>
+    <body>
+        <div class="slidemenu">
+            <h2><br>MENÚ</h2>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="minombre.html">Nombre Usuario</a></li>
+                    <li><a href="config.html">Configuración Habitación</a></li>
+                    <li><a href="tablas.html">Tabla de Meteorología</a></li>
+                    <li><a href="galeria.html">Galería de Imágenes</a></li>
+                </ul>
+        </div>
+        <div class="contenidos">
+            <img src="imagenes/icono.png" alt="" class="menu-bar" width="50" height="50">
+        </div>
+    <header class="cabecera">Smart Room Project</header> 
+        <div class="banda1"></div>
+
+        <div class="banda2">
+            <a class="referencia" >Información:<div id="info"></div></a>
+        </div>
+        
+        <div class="fondo">
+            <h1 class="titulo">Datos de la habitación</h1>
+            <form name="form" onsubmit="return ComprobarDatos();">
+                <b>
+                <div class="contconfig">
+                    País: <input list="country" onblur="ComprobarPaises();" id="pais"  oninput="Clear();" required>
+                    <datalist id="country">
+                        <option value="España"></option>
+                        <option value="Italia"></option>
+                        <option value="Francia"></option>
+                        <option value="Alemania"></option>
+                        <option value="Paises Bajos"></option>
+                        <option value="Croacia"></option>
+                        <option value="Eslovenia"></option>
+                    </datalist><br><br>
+                    Ciudad: <select id="city" name="city" type="text" ><option value="Selec">Selecciona Ciudad</option></select><br><br>
+                    Coordenadas GPS: <input id="gps" name="gps" oninput="Escribiendo();" type="text" onblur="ComprobarCoordenadas();"><br><br>
+                    Mapa URL: <input id="url" name="map" type="url" ><br><br>
+                    Foto: <input name="picture" type="file" ><br><br>
+                    Música: <input name="music" type="file"><br><br>
+                    Password: <input id="password" name="password" type="password" oninput="ComprobarClave();" onclick="Clean();" onblur="LongitudClave();" required>
+                    <keygen name="security"><br><br>
+                    <br><br> 
+                    <input value="Enviar Datos" type="submit" id="boton">
+                </div>
+                
+                </b>
+            </form>
+        </div>
+
+        <div class="fondo">
+            <h1 class="titulo">Seleccione los sensores</h1>
+            <form>
+                <b>
+                <div class="contconfig">
+                    <input id="seleccion1" name="Temperatura" type="checkbox">Temperatura<br><br>
+                    <input id="seleccion2" name="Humedad" type="checkbox">Humedad<br><br>
+                    <input id="seleccion3" name="Sonido" type="checkbox">Nivel de sonido<br><br>
+                    <input id="seleccion4" name="Luz" type="checkbox">Nivel de luz<br><br>
+                    <input id="seleccion5" name="Movimiento" type="checkbox">Movimiento
+                </div>
+            </b>
+            </form>
+                 <h1 class="titulo">Configure Alertas</h1>
+            <form name= "temp" oninput="alerta.value=parseInt(Max.value)-parseInt(Min.value)">
+                <b> 
+                <div class="contconfig">
+                    Temperaturas entre (-15º y 37º) <br>
+                    Temperatura Máxima (º): <input type="number" id="max" name="Max" value="26" max="37" min="24" onblur="ComprobarTemp();"><br>
+                    Temperatura Mínima (º): <input type="number" id="min" name="Min" value="22"  max="24" min="-15" onblur="ComprobarTemp();"><br><br>
+                    Diferencia: <output name="alerta" id= "temp" ></output>
+                </div>
+            
+            </b>
+            </form>   
+            <img src="imagenes/up.png" alt="" class="arriba" id="up" width="50" height="50">
+        </div>
+        <h2>
+            <div class="retorno">
+                <a class="referencia2" href="index.html">Volver a pagina principal</a>
+            </div>
+            <div class="pie" >Universidad de Alcalá</div>
+        </h2>
+        <script language="JavaScript" type="text/javascript" src="./datos.js"></script>
+    </body>
+</html>
