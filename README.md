@@ -1,3 +1,1 @@
-# Teleco
-
-Práctica página web. Laboratorio Servicios y Sistemas Telemáticos.
+# Práctica página web. Curso: Laboratorio Servicios Telemáticos.
